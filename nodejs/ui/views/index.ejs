@@ -17,18 +17,21 @@
             chat-window {
                 font-size: small;
                 --chat-messages-height: 12em;
-                --chat-messages-scroller: {
+                --chat-messages-scroller: 
+		{
                     border: 1px inset #eee;
-                };
-                --paper-input-container-input: {
+                }
+                --paper-input-container-input:
+		{
                     margin: 0 2px;
-                };
-                --chat-message-text: {
+                }
+                --chat-message-text: 
+		{
                     background-color: #f0f0f0;
                     padding: 6px 8px;
                     margin: 4px 0;
                     border-radius: 6px;
-                };
+                }
             }
             .center {
                 margin:auto;
@@ -40,7 +43,9 @@
             #messages li { padding: 5px 10px; }
             #messages li:nth-child(odd) { background: #eee; }
             #messages { margin-bottom: 40px }
-            .w3-bar { background-color: <%=theme%> !important }
+            .w3-bar { background-color: <%=theme%> !important
+	    }
+
 .navbar-light .navbar-brand {
   color: #00FFFF;
   font-size: 40px;
@@ -267,7 +272,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#">SSI</a>
-    <a href=""><img class="navbar-brand" src="/images/sovrinIcon.png"></a>
+    <a href=""><img class="navbar-brand" src="/images/cross.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -281,9 +286,6 @@
      <li class="nav-item">
     <a class="nav-link">Welcome <%=name%></a>
 	    </li>
-     <li class="nav-item">
-	 <a href=""><img class="nav-link" width="55px" height="55px" src="/images/cross.png"></a>
-	     </li>
      <li class="nav-item">
     <a href="#credentials" id="credentials_link" class="nav-link" onclick="showTab('credentials')" >Credentials</a>
 	    </li>
