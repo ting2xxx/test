@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
     <head>
         <title><%=name%>'s Agent</title>
@@ -13,7 +13,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jdenticon@2.0.0"></script>
         <!--<link rel="import" href="bower_components/chat-window/chat-window.html">-->
-         <style is="custom-style">
+        <style is="custom-style">
             chat-window {
                 font-size: small;
                 --chat-messages-height: 12em;
@@ -31,19 +31,22 @@
                 };
             }
         </style>
-        <style>
-            .center {
-                margin:auto;
-                width: 90%;
-            }
-            #messages { list-style-type: none; margin: 0; padding: 0; }
-            #messages li { padding: 5px 10px; }
-            #messages li:nth-child(odd) { background: #eee; }
-            #messages { margin-bottom: 40px }
-            .w3-bar { background-color: <%=theme%> !important }
-			.navbar-light .navbar-brand {
+       <style>
+        .center {
+            margin:auto;
+            width: 90%;
+        }
+        body {
+        background-color: #AFEEEE;
+        }
+        #messages { list-style-type: none; margin: 0; padding: 0; }
+        #messages li { padding: 5px 10px; }
+        #messages li:nth-child(odd) { background: #eee; }
+        #messages { margin-bottom: 40px }
+        
+.navbar-light .navbar-brand {
   color: #00FFFF;
-  font-size: 40px;
+  font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
@@ -55,7 +58,6 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: #FF4500;
-  font-size: 30px;
 }
 
 .navbar-toggler {
@@ -86,8 +88,8 @@
 }
 
 .carousel-item {
-  height: 50vh;
-  min-height: 100px;
+  height: 100vh;
+  min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -111,7 +113,8 @@
   font-size: 18px;
   line-height: 1.9;
 }
-        </style>
+
+    </style>
     </head>
     <body>
         <!-- Header -->
@@ -236,21 +239,18 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://i.postimg.cc/T31Lzpt5/image.jpg" alt="First slide">
+      <img class="d-block w-100" src="https://i.postimg.cc/YSNswkN5/blockchain-3019120-1280.png" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Slider One Item</h5>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://i.postimg.cc/qq62HgJG/image.jpg" alt="Second slide">
+      <img class="d-block w-100" src="https://i.postimg.cc/xTrpqcsw/web-4861605-1280.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Slider One Item</h5>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://i.postimg.cc/pXNsXMwd/blockchain-self-sovereign-identity-key-developing-talent-1024x440.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://i.postimg.cc/JzrqBJj2/1-D0n-NIJF0-Fs-Qeg24-VNStct-Q.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Slider One Item</h5>
       </div>
     </div>
   </div>
@@ -267,7 +267,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#">SSI</a>
-    <a href=""><img class="navbar-brand" src="/images/cross.png"></a>
+    <a href=""><img class="navbar-brand" src="https://i.postimg.cc/ydj6xMK5/cross.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
